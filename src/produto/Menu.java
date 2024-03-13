@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
+import produto.model.Camiseta;
+import produto.model.Sapato;
 import produto.util.Cores;
 
 public class Menu {
@@ -12,6 +15,14 @@ public class Menu {
 
 
 		public static void main(String[] args) {
+			
+			// Teste classe Camiseta
+			Camiseta c1 = new Camiseta(2,"G",1,"Gucci","Verde",150.0f);
+			c1.visualizar();
+			
+			// Teste classe Sapato
+			Sapato s1 = new Sapato(3,30,2,"Air force","Branco",300.0f);
+			s1.visualizar();
 
 			int opcao;	
 
