@@ -2,21 +2,20 @@ package produto.model;
 
 public class Sapato extends Produto {
 
-	private int tamanho;
+	private int tamanhoSapato;
 
-	public Sapato(int numeroProduto, int tamanhoProduto,int tipoProduto, String nomeProduto, String corProduto, float precoProduto) {
+	public Sapato(int numeroProduto, int tamanhoSapato,int tipoProduto, String nomeProduto, String corProduto, float precoProduto) {
 		super(numeroProduto, nomeProduto,tipoProduto, corProduto, precoProduto);
 
-		this.setTamanho(tamanhoProduto);
 
 	}
 
 	public int getTamanho() {
-		return tamanho;
+		return tamanhoSapato;
 	}
 
-	public void setTamanho(int tamanho) {
-		this.tamanho = tamanho;
+	public void setTamanho(int tamanhoSapato) {
+		this.tamanhoSapato = tamanhoSapato;
 	}
 
 }
