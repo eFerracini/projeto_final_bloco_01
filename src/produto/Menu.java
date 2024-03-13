@@ -13,10 +13,7 @@ public class Menu {
 
 		public static void main(String[] args) {
 
-			int opcao, numero, agencia, tipo, aniversario, numeroDestino;
-			String titular;
-			float saldo, limite, valor;
-			
+			int opcao;	
 
 			while (true) {
 
@@ -27,9 +24,9 @@ public class Menu {
 				System.out.println("                                                     ");
 				System.out.println("*****************************************************");
 				System.out.println("                                                     ");
-				System.out.println("            1 - Criar Produto                        ");
+				System.out.println("            1 - Adicionar Produto                    ");
 				System.out.println("            2 - Listar todos os produtos             ");
-				System.out.println("            3 - Atualizar Dados dos produtos         ");
+				System.out.println("            3 - Editar  produto                      ");
 				System.out.println("            5 - Apagar Produto                       ");
 				System.out.println("            6 - Sair                                 ");
 				System.out.println("                                                     ");
@@ -54,18 +51,18 @@ public class Menu {
 
 				switch (opcao) {
 				case 1:
-					System.out.println(Cores.TEXT_WHITE + "Criar Produto\n");
+					System.out.println(Cores.TEXT_WHITE + "Adicionar Produto\n");
 
 					keyPress();
 					break;
 				case 2:
-					System.out.println("\n Listar todos os Produto");
+					System.out.println("\n Listar todos os Produtos");
 
 					keyPress();
 					break;
 
 				case 3:
-					System.out.println("\n Atualizar dados do Produto");
+					System.out.println("\n Editar  produto");
 
 					
 					keyPress();
